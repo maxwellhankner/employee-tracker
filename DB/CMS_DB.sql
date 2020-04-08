@@ -11,17 +11,17 @@ CREATE TABLE employees(
   PRIMARY KEY (id)
 );
 
-CREATE TABLE departments(
-  id INTEGER(11) AUTO_INCREMENT NOT NULL,
-  department_name VARCHAR(30) NOT NULL,
-  PRIMARY KEY (id)
-);
-
 CREATE TABLE roles(
   id INTEGER(11) AUTO_INCREMENT NOT NULL,
   title VARCHAR(30) NOT NULL,
   salary DECIMAL(8,2) NOT NULL,
   department_id INTEGER(11) NOT NULL,
+  PRIMARY KEY (id)
+);
+
+CREATE TABLE departments(
+  id INTEGER(11) AUTO_INCREMENT NOT NULL,
+  department_name VARCHAR(30) NOT NULL,
   PRIMARY KEY (id)
 );
 
