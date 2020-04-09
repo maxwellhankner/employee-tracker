@@ -16,7 +16,6 @@ To use see or use the source code of this application:
 - Install MySQL and MySQL Workbench
 - From a terminal window such as the integrated terminal window in VSCode, type "node server.js" to run the application. You will be prompted in the terminal for input to create and manage your MySQL database.
 For your reference, the database table contains three tables:
-![Database Schema](Assets/schema.png)
 * **department**:
   * **id** - INT PRIMARY KEY
   * **name** - VARCHAR(30) to hold department name
@@ -35,10 +34,8 @@ The application that at a allows the user to:
   * Add departments, roles, employees
   * View departments, roles, employees
   * Update employee roles
-  Below is a gif of the application that animates its use:
-  ![Employee Tracker](Assets/employee-tracker.gif)
 
-## Possible Future Enhancements
+## Not Included
 
 This application could be extended in any number of ways, including the ability to:
   * Update employee managers
