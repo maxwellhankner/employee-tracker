@@ -1,9 +1,7 @@
 // Require inquirer
 const inquirer = require('inquirer');
 
-// Require the api and html routes
-// require('./routes/apiRoutes')(app);
-
+// Require the database connection
 const connection = require('./DB/connection');
 
 function init() {
